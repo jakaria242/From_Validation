@@ -1,0 +1,146 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.js_form{
+    width: 400px;
+    margin: 0 auto;
+    background: rgb(0, 195, 255);
+    padding: 25px;
+    margin-top: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    user-select: none;
+
+}
+.js_form form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+     user-select: none;
+       position: relative;
+
+}
+form input{
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+      font-size: 14px;
+    font-weight: bold;
+  outline: none;
+  border: none;
+   user-select: none;
+    
+}
+.form_grop button{
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 25px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+  border: none;
+  cursor: pointer;
+   
+
+}
+.form_grop button:active{
+    background: black;
+    color: white;
+}
+.form_grop p{
+    font-weight: bolder;
+    color: red;
+    margin-top: 4px;
+    margin-left: 7px;
+}
+
+.form_grop .sss{
+     color: black;
+    position: absolute;
+    top: 211px;
+    left: 322px;
+}
+.form_grop .eee{
+     color: black;
+    position: absolute;
+    top: 146px;
+    left: 322px;
+}
+
+
+
+
+
+
+.black_mode{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background: #000;
+    top: 15px;
+    right: 115px;
+}
+
+.red_mode{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background: red;
+    top: 15px;
+    right: 68px;
+}
+
+
+.green_mode{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background: green;
+    top: 15px;
+    right: 20px;
+}
+
+
+
+body.blackk{
+    background: #000;
+}
+body.blackk .black_mode{
+    background: #fff;
+}
+
+
+body.redd{
+    background: red;
+}
+body.redd .red_mode{
+    background: #fff;
+}
+
+ body.greenn{
+    background: green;
+}
+body.greenn .green_mode{
+    background: #fff;
+}
